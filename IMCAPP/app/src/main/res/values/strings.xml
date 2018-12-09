@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">IMCAPP</string>
+    <string name="texto_etiqueta_peso">proporcion el peso en kilogramos</string>
+    <string name="texto_etiqueta_estatura">proporcione la estatura en metros</string>
+    <string name="texto_boton_calcular">calcular</string>
+    <string name="texto_boton_limpiar">limpiar</string>
+    <string name="texto_Etiqueta">El indice de masa corporal es </string>
 </resources>

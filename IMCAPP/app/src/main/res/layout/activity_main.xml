@@ -6,14 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.juanhoil.android.imcapp.MainActivity">
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="proporcion el peso en kg:"/>
 
     <EditText
+        android:String="@String/texto_etiqueta_peso"
+        android:id="@+id/campo_peso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <TextView
@@ -21,16 +24,22 @@
         android:layout_height="wrap_content"
         android:text="Proporcion la estatura en meros"/>
     <EditText
+        android:string="@string/texto_etiqueta_estatura"
+        android:id="@+id/Campo_Estatura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
     <Button
+        android:string="@string/texto_boton_calcular"
+        android:id="@+id/boton_calcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calcular"/>
     <Button
+        android:string="@string/texto_boton_limpiar"
+        android:id="@+id/boton_limpiar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Limpiar"/>
@@ -39,6 +48,8 @@
         android:layout_height="wrap_content"
         android:text="El Indice de Masa Corporal es:"/>
     <TextView
+        android:string="@string/texto_Etiqueta"
+        android:id="@+id/Etiqueta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0.0"/>
