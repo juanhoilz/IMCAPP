@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.eliasmay.android.geoapp.GeoActivity"
+    android:layout_margin="24dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/texto_pregunta_1"
+        android:id="@+id/texto_pregunta"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/texto_boton_cierto"
+        android:layout_gravity="center"
+        android:id="@+id/boton_cierto"
+        android:layout_margin="24dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/texto_boton_falso"
+        android:layout_gravity="center"
+        android:id="@+id/boton_falso"
+        android:layout_margin="24dp"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/texto_boton_mostrar_respuesta"
+        android:gravity="center"
+        android:text="@string/texto_boton_mostrar_respuesta"
+        android:layout_margin="24dp"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:text="@string/texto_boton_anterior"
+            android:layout_gravity="center"
+            android:id="@+id/boton_anterior"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="24dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:text="@string/texto_boton_siguiente"
+            android:layout_gravity="center"
+            android:id="@+id/boton_siguiente"
+            android:layout_alignParentRight="true"
+            android:layout_margin="24dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
